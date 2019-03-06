@@ -1,0 +1,82 @@
+size:
+  width: 2500
+  height: 1686
+selected: true
+name: Flex Message
+chatBarText: เมนู
+areas:
+-
+  bounds:
+    x: 0
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: Restaurant
+    text: 'ร้านอาหาร'
+-
+  bounds:
+    x: 625
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: menu
+    text: 'เมนู'
+-
+  bounds:
+    x: 1250
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: uri
+    uri: 'line://app/1642485746-pNaOa3VJ'
+#    type: message
+#    label: receipt
+#    text: 'ใบเสร็จ'
+-
+  bounds:
+    x: 0
+    y: 843
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: news
+    text: 'ข่าว'
+-
+  bounds:
+    x: 625
+    y: 843
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: ticket
+    text: 'Ticket'
+-
+  bounds:
+    x: 1250
+    y: 843
+    width: 625
+    height: 843
+  action:
+#    type: uri
+#    uri: 'line://app/1642485746-pNaOa3VJ'
+
+    type: message
+    label: catalogue
+    text: 'Catalogue'
+-
+  bounds:
+    x: 1875
+    y: 0
+    width: 625
+    height: 1685
+  action:
+    type: message
+    label: back
+    text: 'ปิดเมนู'
